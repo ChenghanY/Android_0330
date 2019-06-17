@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <!--头部-->
+    <RelativeLayout
+        android:id="@+id/registerHeader"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:background="#008CC9">
+        <ImageView
+            android:id="@+id/close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/login_close"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="注册"
+            android:textSize="30sp"
+            android:textColor="#ffffff"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="20dp"/>
+
+    </RelativeLayout>
+
+    <!--用户名-->
+    <RelativeLayout
+        android:id="@+id/userNameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/registerHeader"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+        <EditText
+            android:id="@+id/userName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="请输入登录用户名/手机号"
+            android:textSize="24sp"
+            android:background="@null"
+            android:layout_marginTop="10dp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#D8DDE1"
+            android:layout_below="@+id/userName"
+            android:layout_marginTop="10dp"></View>
+    </RelativeLayout>
+
+    <!--密码-->
+    <RelativeLayout
+        android:id="@+id/userPwdLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/userNameLayout"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+        <EditText
+            android:id="@+id/userPwd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="请输入登录密码"
+            android:textSize="24sp"
+            android:inputType="textPassword"
+            android:background="@null"
+            android:layout_marginTop="10dp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#D8DDE1"
+            android:layout_below="@+id/userPwd"
+            android:layout_marginTop="10dp"></View>
+    </RelativeLayout>
+
+
+    <!--重复密码-->
+    <RelativeLayout
+        android:id="@+id/userConfirmPwdLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/userPwdLayout"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+        <EditText
+            android:id="@+id/userConfirmPwd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="请确认登录密码"
+            android:textSize="24sp"
+            android:inputType="textPassword"
+            android:background="@null"
+            android:layout_marginTop="10dp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#D8DDE1"
+            android:layout_below="@+id/userConfirmPwd"
+            android:layout_marginTop="10dp"></View>
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/userConfirmPwdLayout"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:background="#F4F5F7"
+        android:text="注册"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/txt_regidter_ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="注册即视为同意"
+        android:layout_below="@+id/submitButton"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="80dp"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="系统服务协议"
+        android:layout_toRightOf="@+id/txt_regidter_ok"
+        android:layout_below="@+id/submitButton"
+        android:layout_marginTop="10dp"
+        android:textColor="#2999CE"/>
+
+
+
+
+    <!--<RelativeLayout-->
+        <!--android:id="@+id/layout_phone"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_below="@+id/layout_register_header"-->
+        <!--android:layout_marginLeft="20dp"-->
+        <!--android:layout_marginRight="20dp">-->
+
+        <!--<LinearLayout-->
+            <!--android:id="@+id/layout_register_phone"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:gravity="center">-->
+
+            <!--<EditText-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginLeft="10dp"-->
+                <!--android:layout_marginTop="10dp"-->
+                <!--android:layout_weight="1"-->
+                <!--android:background="@null"-->
+                <!--android:gravity="left"-->
+                <!--android:hint="请输入您的手机号"-->
+                <!--android:textSize="24sp" />-->
+
+        <!--</LinearLayout>-->
+
+        <!--<View-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="1dp"-->
+            <!--android:background="#D8DDE1"-->
+            <!--android:layout_below="@+id/layout_register_phone"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--&gt;</View>-->
+    <!--</RelativeLayout>-->
+
+    <!--&lt;!&ndash;验证码&ndash;&gt;-->
+
+    <!--<RelativeLayout-->
+        <!--android:id="@+id/layout_ver"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_below="@+id/layout_phone"-->
+        <!--android:layout_marginLeft="20dp"-->
+        <!--android:layout_marginRight="20dp"-->
+        <!--android:layout_marginTop="10dp">-->
+
+        <!--<LinearLayout-->
+            <!--android:id="@+id/layout_register_ver"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content">-->
+
+            <!--<EditText-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_weight="1"-->
+                <!--android:hint="请输入验证码"-->
+                <!--android:background="@null"-->
+                <!--android:textSize="24sp"-->
+                <!--android:layout_marginLeft="20dp"-->
+                <!--android:paddingTop="10dp"/>-->
+
+        <!--</LinearLayout>-->
+        <!--<View-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="1dp"-->
+            <!--android:background="#D8DDE1"-->
+            <!--android:layout_below="@+id/layout_register_ver"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--&gt;</View>-->
+    <!--</RelativeLayout>-->
+
+    <!--&lt;!&ndash;提交&ndash;&gt;-->
+
+</RelativeLayout>

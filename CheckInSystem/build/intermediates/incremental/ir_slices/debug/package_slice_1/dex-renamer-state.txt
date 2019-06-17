@@ -1,0 +1,4 @@
+#Sun Mar 31 00:37:24 CST 2019
+base.0=E\:\\android_0330\\MuTaoUpLoad\\build\\intermediates\\transforms\\dexMerger\\debug\\1
+path.0=classes.dex
+renamed.0=classes.dex

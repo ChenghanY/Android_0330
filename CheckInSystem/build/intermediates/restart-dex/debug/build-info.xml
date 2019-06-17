@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="x86"
+    api-level="24"
+    density="420dpi"
+    format="8"
+    plugin-version="2.2.3"
+    timestamp="31931893227438"
+    token="-6911679205624323341"
+    verifier="BINARY_MANIFEST_FILE_CHANGE" >
+
+    <task
+        name="javac"
+        duration="491" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="183" />
+    <task
+        name="verifier"
+        duration="48" />
+
+    <artifact
+        location="E:\Android_Studio\Studio_workSpace\ShoppingTog\ImoocShopping\build\outputs\apk\ImoocShopping-debug.apk"
+        type="MAIN" />
+
+    <build
+        timestamp="31931893227438"
+        verifier="BINARY_MANIFEST_FILE_CHANGE" >
+        <artifact
+            location="E:\Android_Studio\Studio_workSpace\ShoppingTog\ImoocShopping\build\outputs\apk\ImoocShopping-debug.apk"
+            type="MAIN" />
+    </build>
+
+</instant-run>

@@ -1,0 +1,7 @@
+#Fri Jan 13 17:47:47 CST 2017
+base.0=E\:\\Android_Studio\\Studio_workSpace\\ShoppingTog\\ImoocShopping\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_78ca27dee4e604a8cb4dd3684bb1cac187aca389
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=E\:\\Android_Studio\\Studio_workSpace\\ShoppingTog\\ImoocShopping\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_39ad62b708f7c97bf35b4afb6761344fe5fae148\\classes.dex
+base.1=E\:\\Android_Studio\\Studio_workSpace\\ShoppingTog\\ImoocShopping\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_39ad62b708f7c97bf35b4afb6761344fe5fae148
+file.0=E\:\\Android_Studio\\Studio_workSpace\\ShoppingTog\\ImoocShopping\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_78ca27dee4e604a8cb4dd3684bb1cac187aca389\\classes.dex
